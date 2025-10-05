@@ -1,0 +1,152 @@
+/* css/responsive.css - Versión corregida */
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .instagram-simulator {
+        right: 60px;
+    }
+    
+    .ig-floating-button {
+        right: 80px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main-container {
+        flex-direction: column;
+    }
+    
+    .instagram-simulator {
+        position: relative;
+        width: 100%;
+        max-width: 450px;
+        height: 650px;
+        right: auto;
+        bottom: auto;
+        margin: 20px auto;
+    }
+    
+.ig-floating-button {
+    display: none !important;
+}
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    header p {
+        font-size: 1rem;
+        padding: 0 15px;
+    }
+    
+    main {
+        padding: 0 15px;
+    }
+    
+    .card {
+        padding: 20px;
+    }
+    
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+    
+    .instagram-simulator {
+        width: calc(100% - 30px);
+        max-width: none;
+        margin: 20px 15px;
+        height: 600px;
+    }
+    
+    .ig-message {
+        max-width: 85%;
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+    
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .video-container video {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 20px 15px;
+    }
+    
+    header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .card {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .card h2 {
+        font-size: 1.3rem;
+    }
+    
+    .instagram-simulator {
+        height: 550px;
+    }
+    
+    .ig-header {
+        padding: 12px;
+    }
+    
+    .ig-chat-container {
+        padding: 12px;
+    }
+    
+    .ig-input-area {
+        padding: 12px;
+    }
+    
+    .ig-message {
+        max-width: 85%;
+        padding: 10px 14px;
+        font-size: 13px;
+    }
+    
+    .consejos-list li {
+        padding: 10px 0;
+        font-size: 0.9rem;
+    }
+    
+    #mensaje {
+        padding: 15px;
+        font-size: 1.1em;
+    }
+}
+
+/* ELIMINAR O COMENTAR EL MODO OSCURO */
+/*
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #121212;
+        color: #e0e0e0;
+    }
+    
+    .card {
+        background: #1e1e1e;
+        color: #e0e0e0;
+    }
+    
+    #mensaje {
+        background: #1e1e1e;
+        color: #e0e0e0;
+    }
+}
+*/
+
+/* Resto del responsive.css se mantiene igual... */
